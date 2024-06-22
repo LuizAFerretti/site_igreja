@@ -1,0 +1,370 @@
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(212, 234, 236);
+        height:300vh;     
+    }
+    ul.nav-sup {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;        
+        background-color: rgb(113, 201, 210);
+        top: 0;
+        position: fixed;
+        width: 100%;
+    }      
+    ul.nav-sup li {
+        float:inline-start;
+        float: right;
+        padding-right: 1rem;        
+    }      
+    ul.nav-sup li a {
+        display: block;
+        color: rgb(254, 251, 251);
+        text-align: center;
+        padding: 20px 1px;
+        text-decoration: none;
+        font-weight: 700;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }    
+    @media screen and (max-width: 200px) {    
+    ul.nav-sup li {float: none;}
+    }  
+    .navigation  .img-logo{
+       width: 100%;
+       padding-top: 58px;
+       margin: 0;   
+       height: 700px; 
+       image-rendering: optimizeQuality; 
+       opacity: 0.8;  
+    }
+    .nav-sup a:hover{
+        color: rgb(14, 14, 16);       
+    }
+    .nav-sup .fa-solid{
+        width: 30px;
+        padding:19px 30px 10px;
+        color: rgb(247, 246, 246);
+        font-size: 26px;
+    }
+  
+    .nav-sup .fa-solid:hover{
+        color: black;
+    }
+    .quite{
+        background-color: rgb(245, 248, 249);
+        margin-top: 40px ;
+        padding: 30px 5px 30px;       
+        border-radius: 19px;
+        padding-left: 20px;
+        margin-left: 30px;
+        margin-right: 30px;   
+    }
+    .quite p{
+        color: rgb(8, 8, 8);
+        font-family:cursive;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 90%;
+        line-height: 2;
+        font-size: 20px;
+        
+    }
+    .quite h1{
+        color:rgb(77, 161, 171) ;        
+    }
+    .linha1 {
+       left: 300px;       
+       margin: 30px 30px 0px ;
+       background-color: rgb(6, 6, 6);
+       height: 1px; 
+    } 
+       
+
+    /* CARDS */
+    .title-cards h1{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        padding-left: 30px;
+        color: rgb(77, 161, 171);
+
+    }
+    .cards{
+        display:flex;
+        padding: 30px; 
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+             
+    }
+    .card1{
+        background-color: rgb(245, 248, 249);            
+        border: solid 0px;       
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 30px; 
+        max-width: 360px;
+        min-width: 50px;     
+        height: 350px;        
+    }  
+    .card-img1 img{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;  
+        height: 174px;            
+    } 
+    .card-text1 h1{
+        font-size: 20px ;
+        margin: 10px 90px 10px;  
+        
+    }
+    .card-text1 h2{
+        font-size: 15px;
+        margin: 5px 37px 5px; 
+        line-height: 1.5;       
+    }
+    .card-text1 button{
+        font-size: 20px;
+        margin:20px 120px 20px;     
+    }
+    .card-text1 button:hover{
+        background-color: rgb(113, 201, 210);
+        color: rgb(243, 248, 248);
+    }
+    .card2{
+        background-color: rgb(245, 248, 249);                
+        border: solid 0px;       
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 30px; 
+        max-width: 360px;
+        min-width: 50px;     
+        height: 350px;   
+    }
+    .card-img2 img{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;  
+        height: 174px;            
+    }
+    .card-text2 h1{
+        font-size:20px ;
+        margin: 10px 90px 10px;     
+    }
+    .card-text2 h2{
+        font-size: 15px;
+        margin: -5px 37px 5px;  
+        line-height: 1.5;           
+    }
+    .card-text2 button{
+        font-size: 20px;  
+        margin:10px 120px 20px;   
+    }
+    .card-text2 button:hover{
+        background-color: rgb(113, 201, 210);
+        color: rgb(243, 248, 248);
+    }
+    .card3{
+        background-color: rgb(245, 248, 249);        
+        border: solid 0px;       
+        margin-left:0px;
+        margin-right: 10px;
+        margin-top: 30px; 
+        max-width: 360px;
+        min-width: 50px;      
+    }  
+    .card-img3 img{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;   
+        height: 174px;       
+    }
+    .card-text3 h1{
+        font-size: 20px ;
+        margin: 10px 100px 10px;     
+    }
+    .card-text3 h2{
+        font-size: 15px;
+        margin: 5px 37px 5px;   
+        line-height: 2.0;           
+    }
+    .card-text3 button{
+        font-size: 20px;  
+        margin:20px 120px 20px;
+    }
+    .card-text3 button:hover{
+        background-color: rgb(113, 201, 210);
+        color: rgb(243, 231, 231);
+    }
+    .linha2{
+        left: 300px;       
+        margin: 30px 30px 30px ;
+        background-color: rgb(6, 6, 6);
+        height: 1px; 
+    }
+
+    /* PEDIDO DE ORAÇÃO */
+    .container{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .container h1{
+        margin-bottom: 30px;
+        font-size: 29px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        display: flex;   
+        color: rgb(77, 161, 171);     
+    }
+    .cont-form {             
+        margin: 0 auto;
+        width: 300px;   
+        padding: 1em;
+        border: 1px solid #343232;
+        border-radius: 1em;
+        height: 360px;
+    }
+    .container .cont-form label{
+        size: 1px;
+    }
+    .container .cont-form input{
+        width:10em;
+        margin: 10px;
+    }
+    .container  textarea{
+        height: 160px;
+        width: 190px;
+    }
+    .container .cont-form button{
+        width: 7em;
+        margin-top: 22px;
+        margin-left: 80px;
+        padding: 5px;        
+    }
+    .container .cont-form button:hover{
+        background-color: rgb(113, 201, 210);
+        color: rgb(243, 231, 231);
+    }
+    .end{
+        background-image: url('/src/assets/paz.jpg');
+        background-repeat: no-repeat;       
+        background-size:cover ;        
+        justify-content: space-evenly;
+        flex-wrap: wrap; 
+        display: flex;
+        margin-top: 30px;
+        height:404px;          
+        
+    }
+    .end-text h4{
+        padding-left: 30px;
+        color: rgb(113, 201, 210);
+        margin-top: 70px;
+       
+    }
+    .end video{
+        margin-top: 95px;                 
+        height: 10em;     
+    }
+    .bass{      
+        background-color: rgb(113, 201, 210);
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        min-height: 140px;
+        max-height: 250px;
+        display: flex;       
+    }
+    footer .p1{
+       color: white; 
+       display: flex;
+       margin-left: 20px;        
+       margin-top: 20px;
+     
+    } 
+    footer .p2{
+        color: white;
+        display: flex;
+        margin-left: 20px;
+        
+    } 
+    .socials img{
+        width: 40px;  
+        margin:10px 10px 20px;        
+        display: inline;
+    } 
+    .socials img:hover{
+        transform: scale(0.89);
+        background-color: white;
+        padding: 0.5px;         
+        border-radius: 50px       
+    }
+  
+   /* ESTILIZAÇÃO DA PAGINA DE NOTICIAS */
+
+    .principal h1{
+        justify-content: space-evenly;       
+        color: rgb(77, 161, 171);        
+        display: flex;
+        margin-top: 50px;
+        font-size: 46px;
+    }
+    .quite{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .quite .news img{
+        width: 100%;
+        height: auto;
+        margin: 20px  -10px 10px;    
+    }
+    .quite  h2{
+      font-size: 30px;
+      color: rgb(7, 11, 246);
+      justify-content: space-evenly;     
+      display: flex;      
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+    .quite .nova_news {
+      font-size: 20px;
+      color: rgb(9, 9, 9);
+      /* justify-content: space-evenly;      */
+      /* display: flex;  */
+      text-align:justify;
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    }
+
+   
+
+
+
+   
+   
+
+
+
+
+
+
+    
+
+    
+   
+
+
+
+
+
+
+
+    
+        
+       
+        
+        
